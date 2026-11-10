@@ -34,4 +34,4 @@ This repository is continuously evolving. New projects, improvements, and experi
 
 ---
 
-Built with 🐍 Python | Developed by Taha
+Built with 🐍 Python 
