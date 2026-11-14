@@ -97,7 +97,7 @@ class CalculatorUI(Panel):
             self.just_calculated = False
             char = {"÷": "/", "×": "*", "−": "-", "%": "%"}.get(key, key)
             if char == ".":
-                current = re.split(r"[+\\-*/%()]", self.expression)[-1]
+                current = re.split(r"[+\-*/%()]", self.expression)[-1]
                 if "." in current:
                     return
                 if not current:
