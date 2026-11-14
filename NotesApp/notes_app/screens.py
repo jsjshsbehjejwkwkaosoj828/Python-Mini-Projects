@@ -35,7 +35,7 @@ class NotesRoot(BoxLayout):
         self.note_count = f"{len(self.notes)} یادداشت"
         self.empty_message = "نتیجه‌ای پیدا نشد" if query else "هنوز یادداشتی نداری"
         for note in sorted(visible_notes, key=lambda item: item.get("updated_at", ""), reverse=True):
-            body = note.get("body", "").strip().replace("\\n", " ")
+            body = note.get("body", "").strip().replace("\n", " ")
             preview = body[:105] + ("…" if len(body) > 105 else "")
             container.add_widget(NoteCard(
                 note_id=note.get("id", ""),
