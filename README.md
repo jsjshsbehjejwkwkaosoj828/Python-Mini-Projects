@@ -51,7 +51,7 @@ Python-Mini-Projects/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/jsjshsbehjejwkwkaosoj828/Python-Mini-Projects.git
+   git clone https://github.com/nexoria7/Python-Mini-Projects.git
    cd Python-Mini-Projects
    ```
 
